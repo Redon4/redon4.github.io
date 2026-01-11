@@ -22,24 +22,11 @@ header {
     z-index: 1;
 
 
-    .left {
-        float: left;
-        padding-left: 1%;
-              
-
-    }
-
     .center {
-        float: none;
-        display: inline-block;
         color: white;
         font-weight: 700;
     }
 
-    .right {
-        float: right;
-        padding-right: 1%;
-    }
 
             
 
@@ -51,10 +38,12 @@ header {
 }
         
 table.projects {
-    width: 100%
+    width: 100%;
 }
 
 .projects {
+    
+
     td {
         width: 50%;
     }
