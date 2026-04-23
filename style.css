@@ -101,6 +101,12 @@ header {
         height: auto;
         /* border: 1px solid white; */
 
+        h2, .progress_bar {
+            margin-bottom: 1vh;
+        }
+
+
+
 
         label {
             color: white;
@@ -109,6 +115,17 @@ header {
         progress {
             border-style:hidden;
             width: 30vw;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 5%;
+            color: white;
+            text-decoration: none;
+            font-size: 0.5cm;
+            font-weight: 700;
+            border: 2px solid green;
+            padding: 0.5% 1%;
         }
     }
 
