@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <script src="/scripts.js" defer></script>
+
+    <script>
+    if (location.pathname.endsWith('/') && location.pathname !== '/') {
+        history.replaceState(null, '', location.pathname.slice(0, -1));
+    }
+    </script>
+    <title>Redon4 - Minewalker</title>
+
+</head>
+
+<body>
+    <header>
+        
+        <div><a href="/">Redon4</a></div>
+        
+        <div class="title">Minewalker</div>
+
+        <div><a href="/projects">Projects</a></div>
+
+    </header>
+    
+    <div id="main_body">
+
+        <div class="container_2part_project">
+            <div class="project_description object">
+                <h2>Base Facts:</h2>
+                <p>Type: Console Game</p>
+                <label>Progress:</label> <progress value="30" max="100"></progress>
+
+                <h2>Description:</h2>
+                <p>Minewalker is like Minesweeper, but you walk around the minefield</p>
+
+                <a href="https://github.com/redon4/minewalker" target="_blank" style="color: green; text-decoration: none; font-size: 0.5cm; font-weight: 700;">View/Download on GitHub</a>
+                    
+                    
+            </div>
+
+            <div class="object">
+                <img src="https://placehold.co/600x400?text=TODO" alt="grey ig">
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div>&copy; 2026 Redon4</div>
+        <div id="ver"></div>
+    </footer>
+    
+</body>
+
+</html>
